@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>2026 Interoperability Laboratory</title>
+  <style>
+    :root {
+      --color-px: #005A9C;
+      --color-rem: oklch(45.6% 0.136 236.8);
+      --bg-main: #F8F9FA;
+      --text-white: #FFFFFF;
+    }
+
+    body {
+      font-family: system-ui, -apple-system, sans-serif;
+      display: grid;
+      place-items: center;
+      min-block-size: 100vh;
+      margin: 0;
+      padding: 2rem;
+      background-color: var(--bg-main);
+    }
+
+    h1 { 
+      width: 100%; 
+      text-align: center; 
+      color: #1A1A1A; 
+      margin-block-end: 2rem; 
+      font-size: 1.75rem; 
+    }
+
+    .contenedor-pruebas {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 3rem;
+      justify-content: center;
+      padding: 2rem;
+      max-inline-size: 75rem; 
+    }
+
+    /* SYSTEM A: STATIC ARCHITECTURE (px) */
+    .unidad-absoluta {
+      background-color: var(--color-px);
+      color: var(--text-white);
+      inline-size: 320px;
+      min-block-size: 250px; 
+      padding: 24px;
+      font-size: 18px; 
+      border-radius: 8px;
+      overflow: hidden; 
+    }
+
+    /* SYSTEM B: FLUID ARCHITECTURE (rem) */
+    .unidad-relativa {
+      background-color: var(--color-rem);
+      color: var(--text-white);
+      inline-size: 20rem;
+      min-block-size: 15.625rem; 
+      padding: 1.5rem;
+      font-size: 1.125rem;
+      border-radius: 0.5rem;
+    }
+
+    h2 { 
+      margin-block-start: 0; 
+      font-size: 1.25em; 
+      border-bottom: 0.0625rem solid rgba(255, 255, 255, 0.3); 
+      padding-bottom: 0.5rem; 
+      margin-bottom: 1rem; 
+    }
+
+    p { 
+      line-height: 1.6; 
+      margin-block-end: 1lh; 
+    }
+
+    ul { 
+      padding-inline-start: 1.2rem; 
+      margin-block-end: 1rem; 
+    }
+
+    li { 
+      line-height: 1.4; 
+      margin-bottom: 0.5rem; 
+    }
+  </style>
+</head>
+<body>
+
+  <h1>2026 Interoperability Laboratory</h1>
+
+  <main class="contenedor-pruebas" role="main">
+    
+    <!-- TEST A: PX -->
+    <section class="unidad-absoluta" role="region" aria-label="Test A: Pixel units (Static)">
+      <h2>Test A: px Units</h2>
+      <p>Using "Ctrl +", the "mouse wheel", or the "browser zoom slider" for optical zoom are browser-specific patches (hacks) for interpretation. This is a very common example of standardized bad practice.</p>
+      <p>Real autonomy verification is performed by modifying the native font size. For example, in Chrome: Settings → Appearance → Font size (Very Large).</p>
+      <p>On tablets and mobiles (Android/iPhone), simply increase the text size in Accessibility settings. By doing so, you will see that the pixel (px) reveals itself as a rigid barrier that strangles the content, while rem (Baseline 2026) allows the interface to breathe natively.</p>
+      <p>Technology must adapt to the user, not the patches or the finger to the design error.</p>
+      <p>This additional content block is added to observe how the architecture responds to a real-world information density. Native interoperability must guarantee the following visual health points:</p>
+      <ul>
+        <li>Full Autonomy: Content must flow without the need for optical zoom "hacks" that break the layout.</li>
+        <li>Container Resilience: Boxes must be lungs that breathe, not pixel prisons that strangle readability.</li>
+        <li>Direct Legal Compliance: Native adaptation to EU Directive 2019/882 and international human rights frameworks.</li>
+        <li>Evolutionary Architecture: Moving beyond the rigidity of the past to embrace the flexibility of Baseline 2026.</li>
+      </ul>
+      <p>If, upon enlarging the font, you cannot read this complete list optimally at the font size, it is physical proof that the measurement unit used is acting as an accessibility barrier.</p>
+    </section>
+
+    <!-- TEST B: REM -->
+    <section class="unidad-relativa" role="region" aria-label="Test B: rem units (Fluid)">
+      <h2>Test B: rem Units</h2>
+      <p>Using "Ctrl +", the "mouse wheel", or the "browser zoom slider" for optical zoom are browser-specific patches (hacks) for interpretation. This is a very common example of standardized bad practice.</p>
+      <p>Real autonomy verification is performed by modifying the native font size. For example, in Chrome: Settings → Appearance → Font size (Very Large).</p>
+      <p>On tablets and mobiles (Android/iPhone), simply increase the text size in Accessibility settings. By doing so, you will see that the pixel (px) reveals itself as a rigid barrier that strangles the content, while rem (Baseline 2026) allows the interface to breathe natively.</p>
+      <p>Technology must adapt to the user, not the patches or the finger to the design error.</p>
+      <p>This additional content block is added to observe how the architecture responds to a real-world information density. Native interoperability must guarantee the following visual health points:</p>
+      <ul>
+        <li>Full Autonomy: Content must flow without the need for optical zoom "hacks" that break the layout.</li>
+        <li>Container Resilience: Boxes must be lungs that breathe, not pixel prisons that strangle readability.</li>
+        <li>Direct Legal Compliance: Native adaptation to EU Directive 2019/882 and international human rights frameworks.</li>
+        <li>Evolutionary Architecture: Moving beyond the rigidity of the past to embrace the flexibility of Baseline 2026.</li>
+      </ul>
+      <p>If, upon enlarging the font, you cannot read this complete list optimally at the font size, it is physical proof that the measurement unit used is acting as an accessibility barrier.</p>
+    </section>
+
+  </main>
+
+</body>
+</html>
+
+<!-- 
+  ==========================================================================
+     TECHNICAL INTEROPERABILITY AUDIT: BASELINE 2026
+  ==========================================================================
+
+  TECHNICAL FILE: 
+  Validation of the structural resilience of measurement units in the 
+  WCAG 3.0 draft against User Agent autonomy.
+
+  ARCHITECTURAL FOUNDATIONS:
+  1. The use of absolute units (px) as a canonical reference represents a 
+     lack of native adaptive architecture, delegating accessibility 
+     to browser-side patches (hacks) like optical zoom.
+  2. Native interoperability (Baseline 2026) requires the use of 
+     relative units (rem/em) to ensure the "measuring tape" does not act 
+     as a rigid barrier against native font scaling.
+
+  LEGAL FRAMEWORK AND USABILITY:
+  - This laboratory demonstrates the physical collapse of information when 
+    pixel rigidity is prioritized over user visual health.
+  - Compliance with EU Directive 2019/882 (and analogous international 
+    frameworks) requires technology that adapts to humans 
+    equitably and resiliently.
+
+  TECHNICAL CONCLUSION:
+  Standardizing the pixel in the official norm induces a bad practice 
+  that compromises social justice and the legal security of 
+  institutions. The standard must be the door, not the wall.
+  
+  ==========================================================================
+-->
